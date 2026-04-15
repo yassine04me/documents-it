@@ -1,47 +1,74 @@
-# 📁 Comptes Rendus – BTS SIO SISR
+# 📂 Comptes Rendus de TP – Menad Yassine
 
-> Dépôt regroupant l'ensemble de mes comptes rendus de travaux pratiques réalisés dans le cadre de ma formation **BTS SIO option SISR** (Systèmes, Réseaux et Infrastructure).
+![BTS SIO](https://img.shields.io/badge/Formation-BTS%20SIO%20SISR-0d6efd?style=flat-square)
+![Statut](https://img.shields.io/badge/Statut-En%20alternance-28a745?style=flat-square)
+![Région](https://img.shields.io/badge/Région-Metz%2C%20France-6c757d?style=flat-square)
+![Docs](https://img.shields.io/badge/Format-PDF-dc3545?style=flat-square&logo=adobeacrobatreader)
+
+> Dépôt regroupant mes comptes rendus de travaux pratiques réalisés en **BTS SIO option SISR** (Systèmes, Réseaux et Infrastructure).  
+> Chaque TP documente une mise en situation professionnelle concrète : installation, configuration, sécurisation et validation en environnement virtualisé.
 
 ---
 
-## 👤 Auteur
+## 👤 À propos
 
-**Menad Yassine**  
-Étudiant BTS SIO – Option SISR  
+Je suis **Menad Yassine**, étudiant en BTS SIO SISR, passionné par les infrastructures réseau, la cybersécurité et l'administration système. Je recherche une alternance dans la région de Metz sur un rythme de 4 jours en entreprise.
+
 🔗 [LinkedIn](https://www.linkedin.com/in/yassine-menad) · [GitHub](https://github.com/yassine04me)
 
 ---
 
-## 📚 Contenu du dépôt
+## 📚 Travaux Pratiques
 
-| Fichier | Thème | Description |
-|---|---|---|
-| `Audit_de_securite_physique.pdf` | Sécurité | Simulation d'une compromission de compte local Windows via Rescatux – démonstration de l'importance de la sécurité physique |
-| `Compte_rendu_script.pdf` | Administration système | Conception d'un script Bash interactif servant de boîte à outils pour commandes Linux |
-| `Menad_Yassine_truenas.pdf` | Stockage & Partage | Installation et configuration de TrueNAS SCALE : pool ZFS, datasets, utilisateurs, ACL et partages SMB |
-| `veeam_yassine.pdf` | Sauvegarde & Restauration | Mise en place de Veeam Backup & Replication 12.3 : dépôt, agent, tâche planifiée, ISO de récupération et restauration Bare Metal |
-
----
-
-## 🛠️ Compétences mises en œuvre
-
-- Administration système Windows & Linux
-- Gestion des permissions NTFS / ACL Unix
-- Configuration de partages réseau SMB
-- Scripting Bash (automatisation, menus interactifs)
-- Sauvegarde et restauration (Veeam B&R)
-- Sécurité physique et défense en profondeur (BitLocker, BIOS/UEFI, Kensington)
-- Virtualisation (VM VirtualBox / VMware)
-- NAS & stockage (TrueNAS SCALE, ZFS, RAID)
+| # | Titre | Thème | Période |
+|---|---|---|---|
+| 01 | [Audit de sécurité physique – Compromission Windows](./Audit_de_securite_physique.pdf) | Cybersécurité | Avril 2026 |
+| 02 | [Introduction aux scripts Bash](./Compte_rendu_script.pdf) | Administration Linux | 2025-2026 |
+| 03 | [Installation et configuration de TrueNAS SCALE](./Menad_Yassine_truenas.pdf) | Stockage & NAS | Février 2026 |
+| 04 | [Mise en place de Veeam Backup & Replication](./veeam_yassine.pdf) | Sauvegarde & PRA | Février 2026 |
 
 ---
 
-## 📌 Contexte
+## 🔍 Résumés
 
-Ces travaux pratiques ont été réalisés dans le cadre de ma formation en alternance. Chaque compte rendu documente une mise en situation professionnelle concrète, avec captures d'écran, analyse des étapes et retour critique sur la démarche adoptée.
+### 🔐 01 – Audit de sécurité physique
+Simulation d'une attaque sur une machine Windows 10 Pro laissée sans surveillance. Démonstration du contournement du mot de passe de session via un Live-CD Rescatux, avec accès aux fichiers sensibles et modification de la base SAM. Conclusion sur les mesures de protection : chiffrement BitLocker, verrouillage BIOS/UEFI, sécurité physique des locaux.
+
+**Compétences :** Sécurité physique · Défense en profondeur · BitLocker · BIOS/UEFI · Rescatux
 
 ---
 
-## 📄 Licence
+### 🖥️ 02 – Scripts Bash
+Conception d'un script Bash interactif servant de boîte à outils pour les commandes Linux courantes en administration système. Analyse d'un script d'exemple, compréhension des structures `while`, `case`, et des mécanismes de menu persistant.
 
-Ce dépôt est partagé à titre éducatif. Toute reproduction à des fins commerciales est interdite.
+**Compétences :** Scripting Bash · Automatisation · Administration Linux
+
+---
+
+### 🗄️ 03 – TrueNAS SCALE
+Déploiement complet d'un serveur NAS en environnement virtualisé : création d'un pool ZFS en RAID miroir, structuration des datasets, gestion des utilisateurs et groupes, configuration des ACL Unix, activation des partages SMB et validation depuis un client Windows.
+
+**Compétences :** TrueNAS SCALE · ZFS · SMB · ACL · Gestion des droits · Virtualisation
+
+---
+
+### 💾 04 – Veeam Backup & Replication
+Installation de Veeam B&R 12.3, création d'un dépôt de sauvegarde local, intégration d'un poste client via agent Windows, configuration d'une tâche planifiée quotidienne, génération d'un support ISO de récupération et test de restauration complète Bare Metal.
+
+**Compétences :** Veeam B&R · Plan de reprise d'activité · Sauvegarde · Restauration Bare Metal
+
+---
+
+## 🛠️ Compétences globales couvertes
+
+`Administration Windows` `Administration Linux` `Scripting Bash` `Virtualisation` `ZFS / RAID` `NAS TrueNAS` `Partages SMB` `Gestion des ACL` `Sauvegarde Veeam` `Restauration Bare Metal` `Cybersécurité` `Défense en profondeur` `BitLocker`
+
+---
+
+## 📌 Contexte de formation
+
+Ces travaux ont été réalisés dans le cadre de ma formation **BTS SIO SISR** (2024–2026) en alternance. Ils illustrent des compétences directement transposables en environnement professionnel sur des outils utilisés en entreprise.
+
+---
+
+*Dernière mise à jour : Avril 2026*
