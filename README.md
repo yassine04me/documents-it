@@ -27,6 +27,7 @@ Je suis **Menad Yassine**, étudiant en BTS SIO SISR, passionné par les infrast
 | 03 | [Installation et configuration de TrueNAS SCALE](./Menad_Yassine_truenas.pdf) | Stockage & NAS | Février 2026 |
 | 04 | [Mise en place de Veeam Backup & Replication](./veeam_yassine.pdf) | Sauvegarde & PRA | Février 2026 |
 | 05 | [Jeu du Yams interactif](./yams.c) | Développement C | 2026 |
+| 06 | [Configuration d'un serveur DNS sous Windows Server](./TP_DNS_YASSINE.pdf) | Services Réseaux | Avril 2026 |
 
 ---
 
@@ -67,9 +68,16 @@ Développement d'une application console simulant le jeu de dés Yams. Ce projet
 
 ---
 
+### 🌐 06 – Configuration d'un serveur DNS sous Windows Server
+Mise en place complète du rôle DNS sous Windows Server. Création de zones de recherche directe et inversée, peuplement des enregistrements clés (A, CNAME, MX, PTR) et configuration de redirecteurs conditionnels vers Internet. Le rapport inclut des tests de résolution via `nslookup` et aborde les notions de cache DNS (TTL) et de diagnostic réseau.
+
+**Compétences :** Windows Server · Rôle DNS · Enregistrements (A, CNAME, MX, PTR) · Diagnostic Réseau (`nslookup`)
+
+---
+
 ## 🛠️ Compétences globales couvertes
 
-`Administration Windows` `Administration Linux` `Scripting Bash` `Développement C` `Algorithmique` `Virtualisation` `ZFS / RAID` `NAS TrueNAS` `Partages SMB` `Gestion des ACL` `Sauvegarde Veeam` `Restauration Bare Metal` `Cybersécurité` `Défense en profondeur` `BitLocker`
+`Windows Server` `Administration Linux` `Réseaux & DNS` `Scripting Bash` `Développement C` `Virtualisation` `ZFS / RAID` `NAS TrueNAS` `Partages SMB` `Gestion des ACL` `Sauvegarde Veeam` `Restauration Bare Metal` `Cybersécurité` `Défense en profondeur` `BitLocker`
 
 ---
 
