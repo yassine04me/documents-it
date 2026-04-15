@@ -18,7 +18,7 @@ Je suis **Menad Yassine**, étudiant en BTS SIO SISR, passionné par les infrast
 
 ---
 
-## 📚 Travaux Pratiques
+## 📚 Travaux Pratiques et Projets
 
 | # | Titre | Thème | Période |
 |---|---|---|---|
@@ -26,6 +26,7 @@ Je suis **Menad Yassine**, étudiant en BTS SIO SISR, passionné par les infrast
 | 02 | [Introduction aux scripts Bash](./Compte_rendu_script.pdf) | Administration Linux | 2025-2026 |
 | 03 | [Installation et configuration de TrueNAS SCALE](./Menad_Yassine_truenas.pdf) | Stockage & NAS | Février 2026 |
 | 04 | [Mise en place de Veeam Backup & Replication](./veeam_yassine.pdf) | Sauvegarde & PRA | Février 2026 |
+| 05 | [Jeu du Yams interactif](./yams.c) | Développement C | 2026 |
 
 ---
 
@@ -59,9 +60,16 @@ Installation de Veeam B&R 12.3, création d'un dépôt de sauvegarde local, int�
 
 ---
 
+### 🎮 05 – Jeu du Yams en Langage C
+Développement d'une application console simulant le jeu de dés Yams. Ce projet met en œuvre des algorithmes de calcul de points complexes, la gestion de l'aléatoire et une interface utilisateur en ASCII Art.
+ 
+**Compétences :** Développement C · Algorithmique · Logique métier · Interface Console
+
+---
+
 ## 🛠️ Compétences globales couvertes
 
-`Administration Windows` `Administration Linux` `Scripting Bash` `Virtualisation` `ZFS / RAID` `NAS TrueNAS` `Partages SMB` `Gestion des ACL` `Sauvegarde Veeam` `Restauration Bare Metal` `Cybersécurité` `Défense en profondeur` `BitLocker`
+`Administration Windows` `Administration Linux` `Scripting Bash` `Développement C` `Algorithmique` `Virtualisation` `ZFS / RAID` `NAS TrueNAS` `Partages SMB` `Gestion des ACL` `Sauvegarde Veeam` `Restauration Bare Metal` `Cybersécurité` `Défense en profondeur` `BitLocker`
 
 ---
 
